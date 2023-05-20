@@ -60,6 +60,11 @@ nav {
   margin-bottom: 64px;
 }
 
+.none {
+  pointer-events: none;
+}
+
+
 .memory small {
   color: #bebebf;
   font-size: 0.75rem;
@@ -72,11 +77,20 @@ nav {
 
 .memory img {
   width: 100%;
-  height: 280px;
+  height: 320px;
   object-fit: cover;
   border-radius: 8px;
 
   transition: transform 0.3s ease-in-out;
+}
+
+#firstjob {
+  background: radial-gradient(circle, rgba(77,89,111,1) 13%, rgba(49,59,61,0.788953081232493) 77%);
+  object-fit:contain
+}
+
+#hcs{
+  height: 420px;
 }
 
 .memory:hover img {
